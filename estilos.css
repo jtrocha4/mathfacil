@@ -18,10 +18,11 @@ p{
 }
 
 #imgHeader{
-    width: 170px;
+    width: 63px;
     height: auto;
     float: left;
-    margin-right:100px ;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 #imgMath{
@@ -33,6 +34,7 @@ p{
 #gifMath{
     margin: auto;
     display: block;
+    width: 45%;
 }
 
 nav{
@@ -79,11 +81,72 @@ footer a{
     text-align: center;
 }
 
-.wrapper{
+/* .main{
     background-color: ghostwhite;
-    width: 70%;
-    display: block;
+    position: relative;
+    width: 66%;
     margin: auto;
+    padding-left: 1%;
+    padding-right: 1%;
+} */
+
+article{
+    margin: 10px 10px;
+}
+
+#datosDigilenciar{
+    margin: 10px 10px;
+}
+
+.main{
+    background-color: ghostwhite;
+    width: 50%;
+    margin: auto;
+}
+
+.wrapper{
+    background: url(/img/fondo.jpg);
+}
+
+table{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+table td{
+    border: 1px solid black;
+    padding: 10px;
+}
+
+input[type="text"], input[type="number"], input[type="date"],select {
+    width: 100%;
+    /* corrige el marco del input con la de la tabla */
+    margin-top: 5px;
+    padding: 5px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+}
+
+input:focus, select:focus{
+    outline: none;
+    border: 1px solid #1668c4;
+}
+
+input[type="button"]{
+    width: 25%;
+    padding: 10px;
+    margin: 5px;
+    border: #ccc;
+    background-color:#1668c4;
+    color: #fff;
+}
+
+input[type="button"]:hover{
+    background-color: #4A88F4;
+}
+
+input[type="button"]:active{
+    box-shadow: 3px 3px #1668c4;
 }
 
 
